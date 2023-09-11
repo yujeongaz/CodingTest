@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 int main() {
-  char str[51];
+  char str[50];
 
   scanf("%s", str);
   printf("%s?\?!", str);
