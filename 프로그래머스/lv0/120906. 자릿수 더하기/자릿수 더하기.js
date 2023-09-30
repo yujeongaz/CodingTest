@@ -1,8 +1,7 @@
 function solution(n) {
-    arr = String(n).split("");
     let sum = 0;
     
-    arr.map(v => sum += Number(v));
+    String(n).split("").map(v => sum += Number(v));
     
     return sum;
 }
